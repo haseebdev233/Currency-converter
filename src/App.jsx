@@ -3,7 +3,6 @@ import InputBox from './components/InputBox.jsx'
 import useCurrencyInfo from './hooks/useCurrencyInfo'
 import './App.css'
 import bgPicture from './assets/bg-picture.jpg'
-import { document } from 'postcss'
 
 function App() {
   const [amount, setAmount] = useState()
